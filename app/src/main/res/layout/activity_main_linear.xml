@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="312dp" app:srcCompat="@drawable/itCroud" android:id="@+id/imageView"/>
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="63dp" app:srcCompat="@mipmap/ic_star_foreground"
+            android:id="@+id/imageView2"/>
+    <TextView
+            android:text="@string/temporadas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/textView"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/editTextTextPersonName"/>
+</LinearLayout>
