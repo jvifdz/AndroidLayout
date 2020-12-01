@@ -6,19 +6,31 @@
 
     <ImageView
             android:layout_width="match_parent"
-            android:layout_height="312dp" app:srcCompat="@drawable/itCroud" android:id="@+id/imageView"/>
+            android:layout_height="294dp" app:srcCompat="@drawable/itCroud" android:id="@+id/imageView"/>
     <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="63dp" app:srcCompat="@mipmap/ic_star_foreground"
+            android:layout_width="125dp"
+            android:layout_height="48dp" app:srcCompat="@mipmap/ic_star_foreground"
             android:id="@+id/imageView2"/>
     <TextView
             android:text="@string/temporadas"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content" android:id="@+id/textView"/>
     <EditText
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:inputType="textPersonName"
             android:ems="10"
-            android:id="@+id/editTextTextPersonName"/>
+            android:id="@+id/editTextTextPersonName" android:text="@string/infoTemporadas"/>
+    <TextView
+            android:text="@string/descripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/textView2"/>
+    <Button
+            android:text="@string/primerBoton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/button"/>
+    <Button
+            android:text="@string/segundoBoton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/button2"/>
 </LinearLayout>

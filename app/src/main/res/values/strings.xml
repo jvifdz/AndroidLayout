@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">AndroidLayout</string>
     <string name="temporadas">Primera temporada</string>
+    <string name="infoTemporadas">Informacion de las temporadas</string>
+    <string name="descripcion">The IT Crowd, es una serie de television de comedia de situacion creada y escrita por Graham Limahn y producida por aish atalia para el canal Channel 4</string>
+    <string name="primerBoton">Ver episodios</string>
+    <string name="segundoBoton">Siguiente</string>
 </resources>
