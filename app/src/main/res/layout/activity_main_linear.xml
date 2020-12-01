@@ -16,11 +16,22 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" android:id="@+id/textView"/>
     <EditText
-            android:layout_width="wrap_content"
+            android:layout_width="266dp"
             android:layout_height="wrap_content"
             android:inputType="textPersonName"
             android:ems="10"
             android:id="@+id/editTextTextPersonName" android:text="@string/infoTemporadas"/>
+    <TextView
+            android:text="@string/edicion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/textView3"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="@string/infoEdicion"
+            android:ems="10"
+            android:id="@+id/editTextTextPersonName2"/>
     <TextView
             android:text="@string/descripcion"
             android:layout_width="match_parent"
@@ -28,9 +39,9 @@
     <Button
             android:text="@string/primerBoton"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" android:id="@+id/button"/>
+            android:layout_height="wrap_content" android:id="@+id/buttonVer"/>
     <Button
             android:text="@string/segundoBoton"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" android:id="@+id/button2"/>
+            android:layout_height="wrap_content" android:id="@+id/buttonSiguiente"/>
 </LinearLayout>
