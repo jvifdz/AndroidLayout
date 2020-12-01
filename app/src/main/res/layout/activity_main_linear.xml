@@ -6,7 +6,7 @@
 
     <ImageView
             android:layout_width="match_parent"
-            android:layout_height="294dp" app:srcCompat="@drawable/itCroud" android:id="@+id/imageView"/>
+            android:layout_height="294dp" app:srcCompat="@drawable/itcroud" android:id="@+id/imageView"/>
     <ImageView
             android:layout_width="125dp"
             android:layout_height="48dp" app:srcCompat="@mipmap/ic_star_foreground"
